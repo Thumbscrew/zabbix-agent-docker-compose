@@ -3,6 +3,7 @@ services:
     image: zabbix/zabbix-agent:${ZABBIX_TAG}
     restart: unless-stopped
     environment:
+      ZBX_HOSTNAME: ${AGENT_HOSTNAME}
       ZBX_SERVER_HOST: ${ZABBIX_HOST}
     ports:
       - 10050:10050
