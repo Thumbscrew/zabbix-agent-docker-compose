@@ -1,6 +1,6 @@
 services:
   zabbix-agent:
-    image: zabbix/zabbix-agent:${ZABBIX_TAG}
+    image: zabbix/zabbix-agent2:${ZABBIX_TAG}
     restart: unless-stopped
     environment:
       ZBX_HOSTNAME: ${AGENT_HOSTNAME}
