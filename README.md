@@ -1,2 +1,2 @@
-# zabbix-agent-docker-compose
+# Zabbix Agent (Docker Compose)
 Docker Compose file for Zabbix Agent
